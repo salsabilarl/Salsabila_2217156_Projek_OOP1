@@ -15,7 +15,6 @@ public class PersegiPanjang {
     
     PersegiPanjang(){
     }
-    
     PersegiPanjang (int panjangBaru, int lebarBaru){
         panjang=panjangBaru;
         lebar=lebarBaru;
@@ -31,7 +30,6 @@ public class PersegiPanjang {
     void setPanjang(int panjangBaru){
         panjang=panjangBaru;
     }
-    
     void setLebar(int lebarBaru){
         lebar=lebarBaru;
     }
