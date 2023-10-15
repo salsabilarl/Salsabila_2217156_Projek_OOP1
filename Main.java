@@ -10,16 +10,6 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-//        Scanner input = new Scanner(System.in);
-//        System.out.println("Masukan panjang persegi panjang: ");
-//        int panjang=input.nextInt();
-//        System.out.println("Masukan lebar persegi panjang: ");
-//        int lebar=input.nextInt();
-//        
-//        PersegiPanjang myPersegiPanjang = new PersegiPanjang(panjang, lebar);
-//        System.out.println("Luas persegi panjang: " +myPersegiPanjang.getLuas());
-//        System.out.println("Keliling persegi panjang: " +myPersegiPanjang.getKeliling());
-
         PersegiPanjang persegiPanjang1 = new PersegiPanjang();
         System.out.println("Persegi panjang 1 dengan panjang " +persegiPanjang1.panjang  +" dan lebar " +persegiPanjang1.lebar +" memiliki luas " +persegiPanjang1.getLuas() +" dan keliling " +persegiPanjang1.getKeliling());
         
